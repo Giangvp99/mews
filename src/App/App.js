@@ -4,7 +4,7 @@ import Loading from "../assets/loading.gif";
 import Sending from "../assets/sending.gif";
 
 const URL_API =
-  localhost.hostname === "localhost"
+  window.location.hostname === "localhost"
     ? "http://localhost:3000/mews"
     : "https://mews-server.herokuapp.com/mews";
 
