@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add --dev @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react babel-loader clean-wabpack-plugin css-loader html-webpack-plugin mini-css-extract-plugin style-loader webpack webpack-cli webpack-dev-server
+
+PATH: 
+  /home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/giang/.gem/ruby/2.7.0/bin:/home/giang/.cargo/bin:/home/giang/.config/nvim/pluged/vim-floaterm/bin/:/home/giang/.gem/ruby/2.7.0/bin:/home/giang/.cargo/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/clean-wabpack-plugin: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1295:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
